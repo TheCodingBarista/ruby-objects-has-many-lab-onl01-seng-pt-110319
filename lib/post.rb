@@ -9,7 +9,11 @@ class Post
   end
   
   def author_name=(author)
-    self.author = Author.add_post_by_title(title)
+    if self.artist
+      self.artist.name
+    else
+      nil
+    end
   end
   
   def self.all
