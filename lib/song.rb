@@ -9,9 +9,8 @@ class Song
   end
   
   def artist_name(song)
-    artist_name
-    else
-      nil
+    artist_name = song.artist
+    nil
   end
   
   def self.all
