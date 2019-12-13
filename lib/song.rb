@@ -8,7 +8,7 @@ class Song
     @@all << self
   end
   
-  def artist_name(song)
+  def artist_name
     Artist.add_song
     nil
   end
