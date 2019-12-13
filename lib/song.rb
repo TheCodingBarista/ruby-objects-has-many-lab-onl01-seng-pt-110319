@@ -13,6 +13,7 @@ class Song
       self.artist.name
     else
       nil
+    end
   end
   
   def self.all
