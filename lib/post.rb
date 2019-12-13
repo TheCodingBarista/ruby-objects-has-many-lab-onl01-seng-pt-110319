@@ -8,7 +8,7 @@ class Post
     @@all << self
   end
   
-  def author_name=(author)
+  def author_name
     if self.author
       self.author.name
     else
