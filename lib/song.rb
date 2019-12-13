@@ -9,7 +9,7 @@ class Song
   end
   
   def artist_name(song)
-    artist_name = song.artist
+    Artist.add_song
     nil
   end
   
